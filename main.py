@@ -349,9 +349,6 @@ class Puzzle(object):
             else:
                 return "."
 
-    class Sequence(object):
-        pass
-
     def __init__(self):
         self._puzzle_dimensions = [0,0]
         self._grid = None
