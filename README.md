@@ -49,6 +49,6 @@ The program will analyze every TileArray for potential cases where the puzzle ca
 
 **GUI Automation:** Currently, the environment needs to be set up in a very specific way (resolution, skin, etc.). Using the same method I did with determining the clues, I could remove the skin requirement and could utilize scaling to remove the resolution limiation. Doing so could also take away some complexity of the screen-reading operation as well.
 
-**Solving:** There are known issues with the program's decision to make moves. Because spaces are always scanned in the same order, this makes hiccups usually lead to failure. Introducing a system that analyzes all possible moves and picking the most optimal/certain one would increase the chance of the program staying accurate throughout execution.
+**Solving:** There are known issues with the program's decision to make moves. Because spaces are always scanned in the same order, this means hiccups usually lead to failure. Introducing a system that analyzes all possible moves and picking the most optimal/certain one would increase the chance of the program staying accurate throughout execution.
 
 **Project Structure:** Currently all code is in one file and some classes are defined in others, making it difficult to follow and work on. A multi-file structure and consistent variable usage would make the project easier to work on, as well as making the project more modular (the GUI Automation can and should be separate from the Solver).
