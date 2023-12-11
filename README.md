@@ -3,15 +3,11 @@ This is a part nonogram-solver, part GUI-automation project.
 
 Nonograms, or Picross, are picture logic puzzles where cells in a grid must be filled according to the numbers assigned to each row/column, which when complete reveals a hidden picture. Using **[Tomlab Games' Pictopix (2017)](https://store.steampowered.com/app/568320/Pictopix/)** as the application that the GUI automation is based off, the program will first take a screenshot of the game window and deduce the puzzle dimensions, grid placement, and provided topography, which will then be used to attempt to solve the puzzle in-game.
 
-<video width="800" height="600" controls>
-  <source src="references/readme/baby.mp4" type="video/mp4">
-</video>
+https://github.com/ant-cap/pictopix-solver/assets/61441638/d96a7161-3595-4622-838b-f84696f095c9
 
-<video width="800" height="600" controls>
-  <source src="references/readme/alien.mp4" type="video/mp4">
-</video>
+https://github.com/ant-cap/pictopix-solver/assets/61441638/21c66d2b-069b-4474-948b-5ae21d46c790
 
-The program is able to solve any 5x5 puzzle with 100% success rate. 10x10 puzzles are also supported, but success rate is closer to 66%. **This first version serves more like a proof of concept rather than a completed project. I plan to rewrite the entire project to have 100% success rate over all dimensions.**
+The program is able to solve any 5x5 puzzle with 100% success rate. 10x10 puzzles are also supported, but success rate is closer to 66%. **This first version serves more like a proof of concept rather than a completed project. I plan to improve the project to have 100% success rate over all dimensions.**
 
 # Setup
 - Ensure you have all necessary libraries installed (PyAutoGUI, PyScreeze, PIL). Installing PyAutoGUI will also install PyScreeze and PIL.
