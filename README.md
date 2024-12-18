@@ -1,5 +1,3 @@
-**Project to continue development soon.** 9/5/2024
-
 # pictopix-solver
 This is a part nonogram-solver, part GUI-automation project.
 
